@@ -6,19 +6,47 @@
   <title>Hanzalah Khiyani Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
+    /* Base Styles */
     body { font-family: 'Inter', sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #222; line-height: 1.6; }
-    header { background: #0a2540; color: #fff; padding: 2rem 1rem; text-align: center; }
-    header h1 { margin: 0; font-size: 2.2rem; }
-    header p { font-size: 1.1rem; margin-top: 0.5rem; }
-    nav { background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; justify-content: center; padding: 1rem; position: sticky; top: 0; z-index: 10; }
-    nav a { margin: 0 1rem; text-decoration: none; color: #0a2540; font-weight: 600; }
+    a { color: inherit; text-decoration: none; }
+    h2 { color: #0a2540; margin-bottom: 0.5rem; }
     section { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
-    h2 { color: #0a2540; border-bottom: 2px solid #0a2540; padding-bottom: 0.3rem; margin-bottom: 1rem; }
+    ul { list-style: none; padding: 0; margin: 0; }
+
+    /* Header */
+    header { background: #0a2540; color: #fff; padding: 2rem 1rem; text-align: center; }
+    header h1 { margin: 0; font-size: 2rem; }
+    header p { font-size: 1rem; margin-top: 0.3rem; }
+
+    /* Navigation */
+    nav { background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; flex-wrap: wrap; justify-content: center; padding: 1rem; position: sticky; top: 0; z-index: 10; }
+    nav a { margin: 0.5rem 1rem; font-weight: 600; }
+
+    /* Project / Experience / Skills Boxes */
     .project, .experience-item, .cert-item, .award-item { margin-bottom: 1.5rem; }
-    .skills-list, .tools-list { display: flex; flex-wrap: wrap; list-style: none; padding: 0; margin: 0; }
-    .skills-list li, .tools-list li { background: #0a2540; color: #fff; padding: 0.4rem 0.8rem; margin: 0.3rem; border-radius: 5px; font-size: 0.9rem; }
+    .skills-list li, .tools-list li { background: #0a2540; color: #fff; padding: 0.4rem 0.8rem; margin: 0.3rem; border-radius: 5px; font-size: 0.9rem; display: inline-block; }
+
+    /* Buttons */
+    a.button { display: inline-block; background: #0a2540; color: #fff; padding: 0.5rem 1rem; border-radius: 5px; margin-top: 0.5rem; }
+
+    /* Footer */
     footer { text-align: center; padding: 1rem; background: #0a2540; color: #fff; margin-top: 2rem; }
-    a.button { display: inline-block; background: #0a2540; color: #fff; padding: 0.5rem 1rem; border-radius: 5px; text-decoration: none; margin-top: 0.5rem; }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      header h1 { font-size: 1.6rem; }
+      header p { font-size: 0.95rem; }
+      nav { flex-direction: column; }
+      nav a { margin: 0.3rem 0; }
+      section { margin: 1rem; padding: 0 0.5rem; }
+      .skills-list li, .tools-list li { font-size: 0.85rem; padding: 0.3rem 0.6rem; }
+    }
+
+    @media (max-width: 480px) {
+      header h1 { font-size: 1.4rem; }
+      header p { font-size: 0.85rem; }
+      nav a { font-size: 0.9rem; }
+    }
   </style>
 </head>
 <body>
@@ -114,7 +142,6 @@
 
 <section id="skills">
   <h2>Skills</h2>
-  <h3>Technical / Analytical Skills</h3>
   <ul class="skills-list">
     <li>Data Analysis</li>
     <li>Dashboard & Reporting Development</li>
@@ -127,32 +154,17 @@
     <li>EMR Systems</li>
     <li>Regulatory Documentation</li>
     <li>Payroll & Scheduling</li>
-  </ul>
-
-  <h3>Business / Consulting Skills</h3>
-  <ul class="skills-list">
     <li>Office Administration</li>
     <li>Healthcare Operations</li>
     <li>Hospice Compliance</li>
-    <li>Activity & Project Coordination</li>
-    <li>Organization & Time Management</li>
-    <li>Process Improvement & Decision-Making</li>
-  </ul>
-
-  <h3>Interpersonal / Leadership Skills</h3>
-  <ul class="skills-list">
-    <li>Client Services & Customer Service</li>
-    <li>Consultative Selling & Sales</li>
-    <li>Communication & Teamwork</li>
-    <li>Leadership & Youth Leadership</li>
-    <li>Staff Coordination</li>
-    <li>Relationship Management</li>
+    <li>Client Services & Sales</li>
+    <li>Leadership & Teamwork</li>
   </ul>
 </section>
 
 <section id="education">
   <h2>Education</h2>
-  <p><strong>University of Houston, C.T. Bauer College of Business</strong><br>Bachelor of Business Administration (BBA), Management Information Systems | Sep 2023 - May 2027</p>
+  <p><strong>University of Houston, C.T. Bauer College of Business</strong><br>BBA, Management Information Systems | Sep 2023 - May 2027</p>
   <p><strong>Michael E. DeBakey High School for Health Professions</strong><br>High School Diploma | Aug 2019 - Jun 2023</p>
 </section>
 
