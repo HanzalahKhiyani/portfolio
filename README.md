@@ -75,7 +75,7 @@ High School Diploma | Aug 2019 - Jun 2023
 
 **Certificate of Competency in SQL** – LearnSQL.com | Dec 2025  
 Credential ID: 09E6C0/12/2025  
-[View Certificate »](https://learnsql.com/files/course-certificate/qrlEBCIssfXIEOsGZKOFKlCTxmkrlhgVtKCTivVkL)
+[View Certificate »](https://learnsql.com/files/course-certificate/qrlEBCIssfXIEOsGZKOFKlCTxmkrlhgVtKCTivVk)
 
 ---
 
