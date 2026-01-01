@@ -5,7 +5,6 @@ Welcome to my personal portfolio!
 I am an **MIS student** at the University of Houston, passionate about technology, consulting, and building impactful projects. This site showcases my projects, resume, and skills.
 
 ## 🚀 Projects
-## 🚀 Projects
 
 ### Semester Sales Project (Consultative Selling)  
 **University of Houston, C.T. Bauer College of Business | Aug 2025 - Dec 2025**  
@@ -25,9 +24,22 @@ Conducted financial statement analysis on Home Depot and Lowe’s using publicly
 
 
 ## 🛠 Skills
-- Programming: HTML, CSS, JavaScript
-- Tools: Git, GitHub, Excel, Tableau
-- Areas: Data Analysis, Web Development, Business Solutions
+
+**Technical Skills:**  
+- Microsoft Excel (advanced formulas, pivot tables, data analysis)  
+- Data Analysis & Visualization (Tableau, basic Python/SQL if applicable)  
+- Business Analytics & Process Improvement  
+
+**Business / Consulting Skills:**  
+- Consultative Selling & Client Engagement  
+- Problem Structuring & Analytical Thinking  
+- Project Management & Team Collaboration  
+- Proposal Development & Presentation  
+
+**Tools & Platforms:**  
+- Microsoft Office Suite (Excel, PowerPoint, Word)  
+- GitHub / Version Control  
+- CRM & Sales Tools (if applicable)
 
 ## 📫 Contact
 - Email: khiyani.hanzalah@gmail.com  
